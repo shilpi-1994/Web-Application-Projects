@@ -1,0 +1,81 @@
+body{
+    height: 900px;
+    background-image: linear-gradient(to bottom left,#5a04a9, #a20bbd);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.login-form{
+    width: 360px;
+    min-height: 380px;
+    box-shadow: 0px 0px 18px 9px #4c0d77;
+    background-color: white;
+    padding: 45px;
+    text-align: center;
+    z-index: 1;  
+}
+
+#login-title{
+    padding: 20px;
+}
+
+.error{
+    border: 1px solid red;
+    margin-bottom: 5px;
+}
+.error-field{
+    color: red;
+    text-align: left;
+    font-size: 10px;
+}
+.avatar{
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px); /*to align avatar in center*/
+    box-shadow: 0px 9px 17px 2px #909090;
+}
+
+.centered{
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%); /*to align form in center(horizontally and vertically)*/
+}
+
+form input{
+    display: block;
+    padding: 8px;
+    margin: 20px auto;
+    margin-top: 10px;
+    background-color: #ececec;
+    color: black;
+    border-style: none;
+    text-align: center;
+    
+}
+
+input[type=submit]{
+    width: 140px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+}
+
+.text-gray{
+    color: #868282;;
+}
+
+@media only screen and (max-width: 425px) {
+    body{
+        background-image: none;
+    }
+    
+    .login-form{
+        box-shadow: none;
+    }
+}
+

@@ -1,0 +1,142 @@
+body{
+    height: 900px;
+    background-image: linear-gradient(to bottom left,#5a04a9, #a20bbd);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container{
+    margin-top: 25px;
+}
+
+.card{
+    margin-top: 17px;
+    text-align: center;
+    box-shadow: 0px 0px 18px 9px #00000040;
+    display:block;
+}
+
+.mt-message-top{
+    margin-top: 170px;
+}
+
+.mt-message{
+    margin-top: 50px;
+}
+
+.card-width{
+    min-width: 400px;
+    min-height: 200px;
+}
+
+.card.msg-read{
+    background: #d2e9ff;
+}
+
+#main-head{
+    font-size: 1.75rem;
+    color: white;
+    margin-top: 50px;
+    float: left;
+
+}
+
+img{
+    margin: 100px auto 30px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 9px 17px 2px #909090;
+}
+
+.btn-style{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.btn-right{
+     margin-left: 5rem; */
+}
+
+.btn-center{
+    margin-left: 37rem;
+}
+
+.message-box {
+    max-height: 725px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.far{
+    float: right;
+}
+
+.fa-trash-alt{
+    margin-right: 80px;
+}
+
+.fa-star{
+    margin-right: 40px;
+}
+
+.message-name{
+    float: left;
+}
+
+.card-message{
+    display: inline-block;
+    float:left;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.msg-avatar{
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+    right: 30px;
+    box-shadow: 0px 9px 17px 2px #909090;
+}
+.profile-card{
+    width: 400px; 
+    height: 650px;
+}
+
+.modal-style{
+    margin: 10px;;
+    border: 1px;
+}
+
+.modal-address{
+    display: inline;
+    text-align: center;
+}
+
+.modal-phone{
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: lightblue;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .profile-card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .message-box {
+    overflow: visible;
+    }
+}
+
+
+

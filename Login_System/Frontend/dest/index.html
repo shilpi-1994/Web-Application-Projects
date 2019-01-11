@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Messaging App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="login-form centered">
+                <img src="https://api.adorable.io/avatars/17/" class="avatar" alt="Login avatar">
+                <h3 id="login-title" class="text-gray">Portal Login</h3>
+                <form method="POST" id="login-form" name="login-form">
+                    <div id="name-div">
+                        <input id = "username" type="text" name="username" placeholder="Username" size="30">
+                        <div id="name-error"></div>
+                    </div>
+                    <div id="password-div">
+                        <input id = "password" type="password" name="password" placeholder="Password" size="30">
+                        <div id="pass-error"></div>
+                    </div>
+                    <input id="submit" type="submit" name="submit" value="Login" width="20px"> 
+                    <a href="register.html" class="text-gray">Sign Up</a>
+                    <p id="error"></p>
+                </form>
+        </div>
+    </main>
+    <footer>
+            
+    </footer>
+</body>
+
+<script type="text/javascript" src="login_app.js"></script>
+</html>
